@@ -1,28 +1,28 @@
 class Tracevault < Formula
   desc "CLI tool for AI code tracing and attribution"
   homepage "https://github.com/softwaremill/tracevault"
-  version "0.13.0"
+  version "0.14.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/softwaremill/tracevault/releases/download/v0.13.0/tracevault-v0.13.0-aarch64-apple-darwin.tar.gz"
-      sha256 "5b1200ba9a17fa5bb993d2218dc13d18bd928913fa9668bc5da6bfb237c30625"
+      url "https://github.com/softwaremill/tracevault/releases/download/v0.14.0/tracevault-v0.14.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a5e064a08b3f92e412cba3416fd3616b7f2fac7bd54a8ead0a555f018a5b10be"
     end
     on_intel do
-      url "https://github.com/softwaremill/tracevault/releases/download/v0.13.0/tracevault-v0.13.0-x86_64-apple-darwin.tar.gz"
-      sha256 "595d05de1ab80ce06db6f8bcbfc872e6423d564c3cb554de2112386f73e2fd17"
+      url "https://github.com/softwaremill/tracevault/releases/download/v0.14.0/tracevault-v0.14.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b6dc6d44b8a289f35eae938b35ff0a8825f2a470e12d886eec08c8a1beac2751"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/softwaremill/tracevault/releases/download/v0.13.0/tracevault-v0.13.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8b14db237fdfb4f8592b1f6b253b4cdb833f60077211e286a4c2f51d0d994893"
+      url "https://github.com/softwaremill/tracevault/releases/download/v0.14.0/tracevault-v0.14.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a53c976dfc72f6f3e2ad4e4b12c836b852e9a7a44d0f1c16f471f3dea54bcb1c"
     end
     on_intel do
-      url "https://github.com/softwaremill/tracevault/releases/download/v0.13.0/tracevault-v0.13.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b5f0d982248bd78241ac1285bc58c361f1b3d54f25ed8334f111296ff92ec12d"
+      url "https://github.com/softwaremill/tracevault/releases/download/v0.14.0/tracevault-v0.14.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e6c314ebd006fd42ec0cec02c235fdc51cd3577942b5f835673b368a87ab3d62"
     end
   end
 
