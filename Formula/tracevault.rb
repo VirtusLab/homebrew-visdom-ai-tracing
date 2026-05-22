@@ -1,28 +1,28 @@
 class Tracevault < Formula
   desc "CLI tool for AI code tracing and attribution"
   homepage "https://github.com/softwaremill/tracevault"
-  version "0.14.0"
+  version "tracevault-core-v0.15.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/softwaremill/tracevault/releases/download/v0.14.0/tracevault-v0.14.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a5e064a08b3f92e412cba3416fd3616b7f2fac7bd54a8ead0a555f018a5b10be"
+      url "https://github.com/softwaremill/tracevault/releases/download/tracevault-core-v0.15.0/tracevault-tracevault-core-v0.15.0-aarch64-apple-darwin.tar.gz"
+      sha256 "06a6b83b59636126669a0ca61aca7416db253cf322ffd1e2a6fba0e39ab5059d"
     end
     on_intel do
-      url "https://github.com/softwaremill/tracevault/releases/download/v0.14.0/tracevault-v0.14.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b6dc6d44b8a289f35eae938b35ff0a8825f2a470e12d886eec08c8a1beac2751"
+      url "https://github.com/softwaremill/tracevault/releases/download/tracevault-core-v0.15.0/tracevault-tracevault-core-v0.15.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b3dad8b8ad72b8f9470559a6c09c2760c5aa3be5c27cde1689db165a1fef0f41"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/softwaremill/tracevault/releases/download/v0.14.0/tracevault-v0.14.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a53c976dfc72f6f3e2ad4e4b12c836b852e9a7a44d0f1c16f471f3dea54bcb1c"
+      url "https://github.com/softwaremill/tracevault/releases/download/tracevault-core-v0.15.0/tracevault-tracevault-core-v0.15.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e9e899514915191ca81d048cd691486100a8100e898f55dad51b80165421415e"
     end
     on_intel do
-      url "https://github.com/softwaremill/tracevault/releases/download/v0.14.0/tracevault-v0.14.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e6c314ebd006fd42ec0cec02c235fdc51cd3577942b5f835673b368a87ab3d62"
+      url "https://github.com/softwaremill/tracevault/releases/download/tracevault-core-v0.15.0/tracevault-tracevault-core-v0.15.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a62059ca23895872a8e35df5a1c632f76dd9f6b7c8bcbad855c619b3e7a29b6b"
     end
   end
 
