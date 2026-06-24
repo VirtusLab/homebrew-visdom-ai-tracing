@@ -1,28 +1,28 @@
 class Tracevault < Formula
   desc "CLI tool for AI code tracing and attribution"
-  homepage "https://github.com/VirtusLab/visdom-ai-tracing"
-  version "tracevault-core-v0.15.0"
+  homepage "https://github.com/VirtusLab/visdom-ai-tracing-cli"
+  version "0.20.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/VirtusLab/visdom-ai-tracing/releases/download/tracevault-core-v0.15.0/tracevault-tracevault-core-v0.15.0-aarch64-apple-darwin.tar.gz"
-      sha256 "06a6b83b59636126669a0ca61aca7416db253cf322ffd1e2a6fba0e39ab5059d"
+      url "https://github.com/VirtusLab/visdom-ai-tracing-cli/releases/download/v0.20.1/tracevault-v0.20.1-aarch64-apple-darwin.tar.gz"
+      sha256 "84747ec055e56700b37b1bea72e1561da2cd34672ec3c1ecdcc4d6766cfa0be9"
     end
     on_intel do
-      url "https://github.com/VirtusLab/visdom-ai-tracing/releases/download/tracevault-core-v0.15.0/tracevault-tracevault-core-v0.15.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b3dad8b8ad72b8f9470559a6c09c2760c5aa3be5c27cde1689db165a1fef0f41"
+      url "https://github.com/VirtusLab/visdom-ai-tracing-cli/releases/download/v0.20.1/tracevault-v0.20.1-x86_64-apple-darwin.tar.gz"
+      sha256 "60f8abe07ac8e7c25597d1f6e40b25f23941b09e116993dbaacab776f53c0d2a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/VirtusLab/visdom-ai-tracing/releases/download/tracevault-core-v0.15.0/tracevault-tracevault-core-v0.15.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e9e899514915191ca81d048cd691486100a8100e898f55dad51b80165421415e"
+      url "https://github.com/VirtusLab/visdom-ai-tracing-cli/releases/download/v0.20.1/tracevault-v0.20.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "70d5ee93bd245ab33ff8315083c105771cbb0268ba4686e125fd9f534911f31d"
     end
     on_intel do
-      url "https://github.com/VirtusLab/visdom-ai-tracing/releases/download/tracevault-core-v0.15.0/tracevault-tracevault-core-v0.15.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a62059ca23895872a8e35df5a1c632f76dd9f6b7c8bcbad855c619b3e7a29b6b"
+      url "https://github.com/VirtusLab/visdom-ai-tracing-cli/releases/download/v0.20.1/tracevault-v0.20.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f5c06798551309d54475a4850da449308837176e85ee80ab3ea95f9b5f58bd11"
     end
   end
 
