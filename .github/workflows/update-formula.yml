@@ -27,7 +27,7 @@ jobs:
             desc "CLI tool for AI code tracing and attribution"
             homepage "https://github.com/VirtusLab/visdom-ai-tracing-cli"
             version "${VERSION}"
-            license "Apache-2.0"
+            license :cannot_represent
 
             on_macos do
               on_arm do
